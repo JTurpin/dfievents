@@ -2,6 +2,11 @@ services:
   - docker
 install:
   - docker build -t jturpin/dfievents .
-  - docker run -d -p 127.0.0.1:80:80
+  - docker run -d -p 127.0.0.1:80:80 --name dfievent jturpin/dfievents
 script:
   - docker ps | grep -q dfievents  
+notifications:
+  webhooks: 
+    urls:
+      - http://your-domain.com/notifications
+    on_success: always
