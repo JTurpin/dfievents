@@ -6,8 +6,3 @@ install:
 script:
   - docker ps | grep -q dfievents  
   - curl -s 127.0.0.1:80 | grep -q "DFI Events is a Colorado"
-notifications:
-  webhooks: 
-    urls:
-      - http://your-domain.com/notifications
-    on_success: always
