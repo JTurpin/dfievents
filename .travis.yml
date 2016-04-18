@@ -5,6 +5,7 @@ install:
   - docker run -d -p 127.0.0.1:80:80 --name dfievent jturpin/dfievents
 script:
   - docker ps | grep -q dfievents  
+  - curl 127.0.0.1:80 | grep "DFI Events is a Colorado"
 notifications:
   webhooks: 
     urls:
