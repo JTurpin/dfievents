@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DFI Events</title>
+    <link>https://dfievents.com/</link>
+    <description>Recent content on DFI Events</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Aug 2021 16:30:19 -0600</lastBuildDate>
+    
+	<atom:link href="https://dfievents.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Us</title>
+      <link>https://dfievents.com/about/</link>
+      <pubDate>Thu, 12 Aug 2021 16:30:19 -0600</pubDate>
+      
+      <guid>https://dfievents.com/about/</guid>
+      <description>DFI Events, was established in 2003 by husband and wife team, Leslie Dietz and Kevin Farrell. The two of them, separately and together, have over 40 years of experience in the hospitality industry. Having met in Australia, Irish-born Kevin and Colorado native Leslie moved to the United States to further their careers in the event management world. Since 2003, DFI Events has planned and operated more than 100 domestic and international events from their Steamboat Springs, Colorado headquarters.</description>
+    </item>
+    
+  </channel>
+</rss>

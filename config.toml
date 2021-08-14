@@ -1,0 +1,56 @@
+baseURL = "https://dfievents.com/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "DFI Events"                   # site title
+theme = "zozo"
+hasCJKLanguage = false                 # has chinese/japanese/korean?
+summaryLength = 100
+paginate = 4                           # shows the number of articles
+enableEmoji = true
+googleAnalytics = ""                   # your google analytics id
+disqusShortname = ""                   # your discuss shortname 
+
+pygmentsUseClasses = true
+pygmentCodeFences = true
+pygmentscodefencesguesssyntax = true
+
+[author]                               # essential
+  name = "Leslie Dietz"
+
+[blackfriday]
+  smartypants = false
+
+[[menu.main]]                          # config your menu
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "About"
+  weight = 40
+  identifier = "about"
+  url = "/about/"
+
+[params]
+  subTitle = "DFI Events is a Colorado Based Meeting and Event Specialist. We provide destination and meeting management services including: initial planning, hotel contracting, transportation, entertainment, décor, hospitality, registration, staffing, vendor management and event operation."                                       # site's subTitle
+  footerSlogan = "©DFI Events 2021"                                    # site's footer slogan
+  keywords = ["Hugo","theme","zozo"]                                   # site's keywords
+  description = "Hugo theme zozo example site."                        # site's description
+  enableMathJax = true                                                 # enable mathjax
+  enableSummary = true                                                 # display the article summary
+  mainSections = ["posts","post"]
+  
+# Valine.
+# You can get your appid and appkey from https://leancloud.cn
+# more info please open https://valine.js.org
+[params.valine]
+  enable = false
+  appId = ""
+  appKey = ""
+  placeholder = " "
+  visitor = true
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true
