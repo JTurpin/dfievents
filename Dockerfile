@@ -1,4 +1,4 @@
-FROM nginx:alpine as build
+FROM nginx:1.20-alpine as build
 
 RUN apk add --update \
     wget
@@ -13,7 +13,7 @@ COPY ./ /site
 WORKDIR /site
 RUN hugo
 
-FROM nginx:alpine
+FROM nginx:1.20-alpine
 COPY --from=build /site/public /usr/share/nginx/html
 
 WORKDIR /usr/share/nginx/html
